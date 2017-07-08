@@ -9,7 +9,8 @@ function draw(){
     stroke(56,219,230);
   } else {
     fill(255);
-    stroke(56,219,230);
+    stroke(56,219,230,78);
   }
   ellipse(mouseX,mouseY,80,80);
+  triangle(mouseX,mouseY,40,40)
 }
